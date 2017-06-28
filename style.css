@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+}
+
+div, a, ul, li, nav, header, footer, main, section, article, h1, h2, h3 {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    margin: 0;
+}
+
+*{
+    font-family: RalewayRegular;
+    box-sizing: border-box;
+}
+
+
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.regular{
+    font-family: RalewayRegular;
+}
+
+.bold{
+    font-family: RalewayBold;
+}
+
+.medium{
+    font-family: RalewayMedium;
+}
+
+.light{
+    font-family: RalewayLight;
+}
+
+.thin{
+    font-family: RalewayThin;
+}
+
+/*
+===================================
+           HEADER START
+===================================
+*/
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    justify-content: center;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,.15);
+}
+
+.header-content-wrapper{
+    max-width: 1280px;
+    width: 100%;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    max-height: 70px;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.logo-text-wrapper{
+    margin-left: 10px;
+}
+
+.logo-text-upper{
+    text-transform: uppercase;
+}
+
+.logo-text-lower{
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.nav {
+    height: 60px;
+}
+
+.nav-item{
+    align-items: center;
+    margin: 10px 15px;
+
+    font-family: RalewayMedium;
+    font-size: 18px;
+
+    border-bottom: 2px solid #fff;
+    transition: 0.2s;
+
+    color: #212121;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #212121;
+
+
+    transition: 0.2s;
+}
+
+/*
+===================================
+           HEADER END
+===================================
+*/
+
+.main-banner {
+    height: 80vh;
+    max-width: 100vw;
+    width: 100%;
+
+    background: url("./img/Grapes1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+/*
+===================================
+           MAIN START
+===================================
+*/
+
+.main-content-wrapper{
+
+}
+
+.latest-news-wrapper{
+    max-width: 1280px;
+    width: 100%;
+
+
+}
+
+
+
+
+/*
+===================================
+             MAIN END
+===================================
+*/
+
+
+
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url("./fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RalewayThin;
+    src: url("./fonts/Raleway-Thin.ttf");
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url("./fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url("./fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url("./fonts/Raleway-Medium.ttf");
+}
